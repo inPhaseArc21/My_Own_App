@@ -19,8 +19,35 @@ $navbar-default-bg: #08088a;
 	color: #fff;
 	text-decoration:none;
 }
-
+		
 .center {
 	
 	text-align:center;
 }
+
+.jumbotron {
+	background-image: asset-url('wallpaper_2979955.png');
+	background-size: cover;
+	height: 590px;
+}
+
+.jumbotron h1 {
+	
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+
+.footer {
+
+	margin-top: 1px solid #fff;
+	padding-top: 20px;
+
+}
+
+
+
+
+
+
+
+
