@@ -8,16 +8,18 @@
 </head>
 <body>
 
-<% flash.each do |name, msg| %>
 
-	<ul> 
-		<li> <%= msg %> </li> 
-	</ul>
+  <%= render 'layouts/navigation' %>
+  <%= render 'layouts/messages' %>
+  <div class = "container">
+    <%= yield %>
+  </div>
 
-<% end %> 
+ <footer>
+	<p style = "text-align:center"> Created and Built by Raj Silari &copy 2016 </p> 
+</footer> 
 
-
-<%= yield %>
 
 </body>
 </html>
+
